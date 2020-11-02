@@ -1,6 +1,6 @@
 {
   "name": "gql-info-to-select",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Converters graphQL info parameter into prisma-client select part",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,6 +12,9 @@
     "watch": "tsc -w",
     "start": "npm link && nodemon",
     "semantic-release": "semantic-release"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
