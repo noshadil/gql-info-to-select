@@ -12,4 +12,5 @@ const mapIncludes = (info: any): any => {
   return returnVal || true;
 };
 
-export const includes = (info:any) =>  mapIncludes(info.fieldNodes[0].selectionSet)
+export const includes = (info: any) =>
+  mapIncludes(info.fieldNodes[0].selectionSet);
